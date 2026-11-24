@@ -33,3 +33,10 @@ python3 mission-05-numbers-data/number_converter.py
 I learned to follow information from input through processing and output to storage. I also learned how the operating system coordinates applications and hardware, how place values work in binary and hexadecimal, and how Git branches and Pull Requests support review. DNS and network protocols help a browser locate a server and request a page.
 
 Each mission has its own README and a separate meaningful commit. The GitHub activity for Mission 6 is documented in that mission's README.
+
+
+## My Learning
+
+- IPOS helped me trace data from a device input through processing and output to storage.
+- Binary uses powers of two, and hexadecimal makes binary values more compact to read.
+- Git staging selects changes for a commit, while a branch lets me prepare changes separately for review.
