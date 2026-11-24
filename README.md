@@ -1,15 +1,12 @@
 # The Digital Detective
 
-A personal record of the Diwali independent learning assignment. Complete each mission in order, replace all prompts with your own observations and explanations, then commit and push each mission separately.
+This project records my work for the Diwali Independent Learning Assignment. I explored how computers handle data, used Terminal to manage files, learned how Git tracks changes, and studied how devices communicate over networks.
 
-> This is a starter scaffold. The assignment asks for your own words and actual observations. Do not submit these prompts as completed work.
-
-## Student and repository details
+## Student information
 - Name: Yash Panchal
 - USN: 2392608463
-- GitHub username: yashpanchal8
-- Repository name: `digital-detective-8463`
-- Repository URL: https://github.com/yashpanchal8/digital-detective-8463
+- GitHub: [yashpanchal8](https://github.com/yashpanchal8)
+- Repository: [digital-detective-8463](https://github.com/Yashpanchal8/digital-detective-8463)
 
 ## Mission index
 - [Mission 0: Create your GitHub workspace](mission-00-setup/README.md)
@@ -23,13 +20,16 @@ A personal record of the Diwali independent learning assignment. Complete each m
 - [Mission 8: Final report and submission](mission-08-final-report/README.md)
 
 ## Topics explored
-Computer input, processing, output and storage; hardware and software; Terminal and file management; operating systems and permissions; programs; number systems and text encoding; Git and GitHub; networks.
+IPOS, computer hardware and software, Terminal commands and file management, operating-system processes and permissions, program execution, number systems, character encoding, Git and GitHub, DNS, and network communication.
 
-## Run the converter
-From this repository root: `python3 mission-05-numbers-data/number_converter.py`
+## Run the number converter
+From the repository root, run:
 
-## Learning summary
-[After completing the missions, summarize what you learned in your own words.]
+```sh
+python3 mission-05-numbers-data/number_converter.py
+```
 
-## Work history
-Mission 0 setup commit `Set up Digital Detective mission structure` is published on the public `main` branch. Remaining missions are not yet complete.
+## What I learned
+I learned to follow information from input through processing and output to storage. I also learned how the operating system coordinates applications and hardware, how place values work in binary and hexadecimal, and how Git branches and Pull Requests support review. DNS and network protocols help a browser locate a server and request a page.
+
+Each mission has its own README and a separate meaningful commit. The GitHub activity for Mission 6 is documented in that mission's README.
