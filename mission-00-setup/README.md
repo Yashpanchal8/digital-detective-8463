@@ -4,7 +4,7 @@
 Prepare the assignment repository with the required mission folders, check Python 3 and Git, and document the setup.
 
 ## 2. Work completed
-Created the root README, mission folders `mission-00-setup` through `mission-08-final-report`, a README in each mission folder, and an `evidence` folder. The repository name is `digital-detective-8463`, based on the last four USN digits supplied by the student. GitHub username supplied: `yashpanchal8`.
+Created the root README, mission folders `mission-00-setup` through `mission-08-final-report`, a README in each mission folder, and an `evidence` folder. Student name: Yash Panchal. USN: 2392608463. The repository name is `digital-detective-8463`, based on the last four USN digits. GitHub username: `yashpanchal8`.
 
 ## 3. Commands / tools used
 - `python3 --version` — checked the available Python version; result: Python 3.14.7.

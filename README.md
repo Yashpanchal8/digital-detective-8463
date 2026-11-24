@@ -5,8 +5,8 @@ A personal record of the Diwali independent learning assignment. Complete each m
 > This is a starter scaffold. The assignment asks for your own words and actual observations. Do not submit these prompts as completed work.
 
 ## Student and repository details
-- Name (only if approved for public sharing): [fill in]
-- USN (only if approved for public sharing): [fill in]
+- Name: Yash Panchal
+- USN: 2392608463
 - GitHub username: yashpanchal8
 - Repository name: `digital-detective-8463`
 - Repository URL: https://github.com/yashpanchal8/digital-detective-8463
