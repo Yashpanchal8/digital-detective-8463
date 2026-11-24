@@ -15,10 +15,10 @@ Created the root README, mission folders `mission-00-setup` through `mission-08-
 A repository is a project folder tracked by Git so changes can be recorded over time. Keeping each mission in its own folder makes the work easier to find and review.
 
 ## 5. Difficulties faced
-The GitHub repository has not yet been created or connected, so this setup is not published.
+The initial push could not resolve GitHub on the first attempt. A retry succeeded.
 
 ## 6. How I resolved them
-The local folder and required structure are prepared. The remaining setup step is to create the public GitHub repository named `digital-detective-8463`, connect this folder, and publish the initial commit.
+Created the public repository `https://github.com/yashpanchal8/digital-detective-8463`, connected it as `origin`, pushed the `main` branch, and verified that the files appear on GitHub.
 
 ## 7. Evidence / files
 - `../README.md` — project overview and mission index.
@@ -28,4 +28,4 @@ The local folder and required structure are prepared. The remaining setup step i
 
 ## 8. Commit details
 - Commit message: `Set up Digital Detective mission structure`.
-- Pushed and verified on GitHub: pending; repository creation and push are next.
+- Pushed and verified on GitHub: yes; the public repository shows the mission folders on `main`.

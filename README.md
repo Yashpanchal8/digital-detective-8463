@@ -9,7 +9,7 @@ A personal record of the Diwali independent learning assignment. Complete each m
 - USN (only if approved for public sharing): [fill in]
 - GitHub username: yashpanchal8
 - Repository name: `digital-detective-8463`
-- Repository URL: https://github.com/yashpanchal8/digital-detective-8463 (publish and verify before using)
+- Repository URL: https://github.com/yashpanchal8/digital-detective-8463
 
 ## Mission index
 - [Mission 0: Create your GitHub workspace](mission-00-setup/README.md)
@@ -32,4 +32,4 @@ From this repository root: `python3 mission-05-numbers-data/number_converter.py`
 [After completing the missions, summarize what you learned in your own words.]
 
 ## Work history
-Record the actual separate mission commits here after they are created. Do not claim a mission was pushed until you verify it on GitHub.
+Mission 0 setup commit `Set up Digital Detective mission structure` is published on the public `main` branch. Remaining missions are not yet complete.
