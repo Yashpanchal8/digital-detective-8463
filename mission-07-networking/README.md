@@ -17,7 +17,7 @@ Explain network types and concepts, check connectivity and DNS, and describe how
 | Client-server | A client requests a service and a server responds. | Browser requesting a page |
 
 ### 7.2 Network observations
-I ran `ping -c 4 example.com` and `nslookup example.com`. Both commands failed in this restricted environment because the domain could not be resolved. This did not prove that the website itself was unavailable; the shell had no working DNS/network access. I did not include local resolver or network details.
+I ran `nslookup example.com`; it returned `104.20.23.154` and `172.66.147.243` at the time of the lookup. I also ran `ping -c 4 example.com`; all four packets received replies, with 0% packet loss. DNS addresses can change. I did not include local resolver or network details.
 
 A connectivity check helps determine whether a destination responds and how long replies take. A DNS lookup asks a resolver for addresses associated with a domain name. When the lookup succeeds, the browser can use an address to contact the server.
 
@@ -37,10 +37,10 @@ A connectivity check helps determine whether a destination responds and how long
 DNS translates a human-readable name into an address that computers can use. A router forwards packets, and protocols define how a client and server exchange requests and responses.
 
 ## 5. Difficulties faced
-The restricted shell could not resolve the domain, so the lookup and connectivity test did not return network results.
+The first attempt ran in a restricted shell and could not resolve the domain.
 
 ## 6. How I resolved them
-I recorded the failure instead of guessing an address. On a network-enabled Terminal, the same commands can be run again; any private IP address or Wi-Fi information should be redacted.
+I reran the read-only commands with network access and recorded only the public domain results. Any private IP address or Wi-Fi information should be redacted.
 
 ## 7. Evidence / files
 This README contains the concepts table, the recorded command result and a seven-step website explanation.
