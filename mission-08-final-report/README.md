@@ -12,8 +12,8 @@ The repository contains all nine mission folders, each with a README. Mission 4 
 - [x] A separate meaningful commit was made for each mission and pushed.
 - [x] IPOS, hardware/software, systems, Terminal, operating systems, programs and data representation are covered.
 - [x] The converter is included and its documented values are 13, 25 and 42.
-- [x] Git branches and Pull Request are recorded in Mission 6.
-- [x] Networking concepts and website request steps are explained.
+- [x] `update-about` branch was pushed and Pull Request #1 was opened and left unmerged for review.
+- [x] Networking concepts and website request steps are explained; ping and DNS results are recorded.
 - [x] Personal network and device details are not included in evidence.
 - [ ] The repository URL is submitted through the instructor's form.
 
@@ -34,4 +34,4 @@ The root README, all mission READMEs, `hello.py`, `number_converter.py`, and pri
 
 ## 8. Commit details
 - Commit message: `Complete final report and verify assignment submission`.
-- The final report commit is pushed. The instructor form submission is still a separate step.
+- The final report commit is pushed. Pull Request #1 is open and unmerged. The instructor form submission is still a separate step.
