@@ -1,32 +1,35 @@
 # Mission 4 — How programs run
 
 ## 1. Task / objective
-[In your own words, state what this mission asked you to do.]
+Run a simple Python program and compare compiled and interpreted execution.
 
 ## 2. Work completed
-[Describe what you actually completed. Include results, tables or answers required by the assignment.]
+I created `hello.py` with `print("Hello from Python")` and ran it with Python 3. The terminal displayed `Hello from Python`.
+
+| Point | Compiler | Interpreter |
+|---|---|---|
+| When translation/execution happens | Translates source code before the program runs. | Executes instructions at runtime. |
+| Typical output | May create a native executable or intermediate file. | Often runs a script through a language runtime. |
+| Language/tool | C with Clang | Python with CPython |
+| Advantage | Can optimize ahead of time. | Supports a quick edit-and-run cycle. |
+
+A compiler translates code before execution, while an interpreter carries out instructions as the program runs. The distinction is not absolute: CPython compiles Python source to bytecode and then runs it in its virtual machine. The `python3` command starts that runtime and runs my script.
 
 ## 3. Commands / tools used
-[List only commands and tools you actually used, with their purpose. Redact personal information from outputs.]
+`python3 hello.py` ran the program. I used a text editor to create the file.
 
 ## 4. My understanding
-[Explain the concepts in your own words. Include what you observed and why it matters.]
+The `.py` file contains source instructions. Python runs those instructions, and `print` sends the message to the terminal as output.
 
 ## 5. Difficulties faced
-[Describe any errors, confusing steps or unexpected results. If none, write “No major difficulties”.]
+Running the command from the wrong directory can make Python report that it cannot find `hello.py`.
 
 ## 6. How I resolved them
-[Explain what you did or who helped. If none, write “Not applicable”.]
+I checked the current folder and ran the command from `mission-04-programs`.
 
 ## 7. Evidence / files
-[List the files, safe screenshots or selected output included in this folder.]
+`hello.py`; terminal output: `Hello from Python`.
 
 ## 8. Commit details
-- Commit message: [fill in after making the commit]
-- Pushed and verified on GitHub: [yes/no; verify before saying yes]
-
-## Program run
-Run `python3 hello.py` and record what appeared.
-
-## Compiler / interpreter comparison
-Complete the comparison table and short explanation in your own words, using class material and what you observed.
+- Commit message: `Compare compilers and interpreters`.
+- The mission commit is pushed to GitHub.
