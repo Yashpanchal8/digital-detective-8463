@@ -26,7 +26,9 @@ The empty file was 0 bytes. The notes and renamed backup both appeared in the Te
 ```text
 Operating system: macOS 27.2.1
 Storage on /: about 13 GiB used; about 694 GiB available
-Processes listed: 824
+Process listing: `ps -axo pid,comm`
+Columns: PID and command name
+Processes listed: 822
 Browser and code editor processes: present
 Account identity: [redacted]
 Process identifiers: omitted

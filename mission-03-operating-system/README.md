@@ -10,7 +10,7 @@ Inspect operating-system information, processes, storage, paths and permissions,
 | OS (`sw_vers`) | Operating-system name and version | macOS 27.2.1 |
 | Current account (`whoami`) | Account running the shell | Redacted in this report |
 | Storage (`df -h /`) | Space used and available on the main volume | About 13 GiB used and 694 GiB available at the time checked |
-| System activity | Running programs and resource use | `ps -axo comm` listed 824 processes; a browser and code editor were present. I did not publish PIDs. |
+| System activity | Running programs and resource use | `ps -axo pid,comm` listed 822 processes. The first column was PID and the second was the command name; browser and code editor processes were present. I did not publish the individual PIDs. |
 
 ### 3.2 Processes
 A process is a running program. The PID is the number the operating system assigns to distinguish one process from another. A browser and a code editor appeared in the process listing. The PID column identifies each running process with its own number. I did not publish the actual PIDs.
@@ -31,7 +31,7 @@ The permission string for a text file in the Terminal activity folder was `-rw-r
 | Security and permissions | Controls access to files and resources. | Allows the owner to edit a file. |
 
 ## 3. Commands / tools used
-`sw_vers`, `whoami`, `df -h /`, `ps -axo comm`, `pwd`, and `ls -l`. Activity Monitor is the graphical process viewer on macOS.
+`sw_vers`, `whoami`, `df -h /`, `ps -axo comm`, `ps -axo pid,comm`, `pwd`, and `ls -l`. Activity Monitor is the graphical process viewer on macOS.
 
 ## 4. My understanding
 The operating system coordinates software and hardware. It tracks running processes, manages memory and storage, and uses permissions to control access. A path locates a file, while permission letters show what users can do with it.
