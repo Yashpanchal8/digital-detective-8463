@@ -32,7 +32,7 @@ python3 mission-05-numbers-data/number_converter.py
 ## What I learned
 I learned to follow information from input through processing and output to storage. I also learned how the operating system coordinates applications and hardware, how place values work in binary and hexadecimal, and how Git branches and Pull Requests support review. DNS and network protocols help a browser locate a server and request a page.
 
-Each mission has its own README and a separate meaningful commit. The `update-about` branch and open Pull Request #1 are documented in Mission 6.
+Each mission has its own README and a separate meaningful commit. The `update-about` branch was reviewed and merged through Pull Request #1; the merge is documented in Mission 6.
 
 ## My Learning
 

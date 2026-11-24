@@ -18,7 +18,7 @@ Staging selects which changes will be included. A commit records the staged chan
 I created the branch `update-about`, added a “My Learning” section to the root README, committed it, and pushed the branch. The section records that I learned how the operating system manages programs, how binary place values work, and how a branch lets me prepare a change separately.
 
 ### 6.3 Pull Request
-A branch is a separate line of development. A Pull Request asks for a change to be reviewed before merging it. I opened a Pull Request from `update-about` into `main` so the README change could be reviewed. Its live URL and status are recorded below after verification.
+A branch is a separate line of development. A Pull Request asks for a change to be reviewed before merging it. I opened a Pull Request from `update-about` into `main` so the README change could be reviewed. After review, I merged it and pulled the updated `main` branch locally.
 
 ### 6.4 Git command glossary
 - `git init`: begins tracking a folder with Git.
@@ -50,4 +50,4 @@ The “My Learning” section in the root README, the branch commit, and the Pul
 - Mission message: `Complete Git and GitHub collaboration mission`.
 - Branch commit: `Add My Learning section to README`.
 - Pull Request: [#1 — Add My Learning section to README](https://github.com/Yashpanchal8/digital-detective-8463/pull/1).
-- Status: Open and unmerged; GitHub shows no merge conflicts.
+- Status: Merged on GitHub. I switched back to `main` and pulled the merged changes locally.
