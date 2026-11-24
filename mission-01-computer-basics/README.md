@@ -1,29 +1,53 @@
 # Mission 1 — Know your computer
 
 ## 1. Task / objective
-[In your own words, state what this mission asked you to do.]
+Describe how a computer receives input, processes it, produces output and stores results. Identify hardware, software and everyday computer systems.
 
 ## 2. Work completed
-[Describe what you actually completed. Include results, tables or answers required by the assignment.]
+### 1.1 IPOS: writing and saving a document
+| Stage | What happens | Component |
+|---|---|---|
+| Input | I type text and use a keyboard shortcut to save. | Keyboard |
+| Processing | The document app handles the keystrokes; the processor runs its instructions using memory. | CPU and RAM |
+| Output | The page and text appear on screen. | Display |
+| Storage | Saving writes the document to long-term storage. | SSD |
+
+The keyboard sends input to the application. The processor handles the instructions, and the screen shows the updated document. When I save, the SSD keeps a copy after the application closes.
+
+### 1.2 Hardware and software
+| Item | Classification | Software category | Purpose |
+|---|---|---|---|
+| Keyboard | Hardware | — | Enters text and commands |
+| Display | Hardware | — | Shows text and images |
+| Processor | Hardware | — | Executes instructions |
+| SSD | Hardware | — | Stores files long term |
+| macOS | Software | Operating system | Manages hardware, files and applications |
+| Web browser | Software | Application | Opens websites |
+| Text editor | Software | Application | Creates and edits documents/code |
+| Backup utility | Software | Utility | Helps protect files with copies |
+
+### 1.3 Computer systems around me
+| System | Main purpose | Input | Output |
+|---|---|---|---|
+| ATM | Provides banking services | Bank card and PIN | Cash or receipt |
+| Smart TV | Plays broadcast or streamed media | Remote control | Picture and sound |
+| Traffic signal controller | Controls traffic lights | Timer or vehicle sensor | Red, amber and green lights |
 
 ## 3. Commands / tools used
-[List only commands and tools you actually used, with their purpose. Redact personal information from outputs.]
+I used a keyboard, display, document application and SSD for the document activity. I used the assignment table to classify each item by its physical form or purpose.
 
 ## 4. My understanding
-[Explain the concepts in your own words. Include what you observed and why it matters.]
+IPOS helps me trace what happens to information. The computer accepts data, processes it, gives a result, and stores it when I save. Hardware is the physical equipment; software provides instructions and tools for using it.
 
 ## 5. Difficulties faced
-[Describe any errors, confusing steps or unexpected results. If none, write “No major difficulties”.]
+Some software can fit more than one broad category, so I classified each item by its main purpose.
 
 ## 6. How I resolved them
-[Explain what you did or who helped. If none, write “Not applicable”.]
+I checked whether the software manages the computer, helps me do a task, or maintains/protects the system.
 
 ## 7. Evidence / files
-[List the files, safe screenshots or selected output included in this folder.]
+This README contains my IPOS, hardware/software and everyday system tables.
 
 ## 8. Commit details
-- Commit message: [fill in after making the commit]
-- Pushed and verified on GitHub: [yes/no; verify before saying yes]
-
-## Required work
-Complete an IPOS trace for one activity; list at least four hardware items and four software examples with software type and purpose; describe three computer-based systems with purpose, one input and one output. Use examples you actually know.
+- Commit message: `Complete computer basics and IPOS mission`.
+- The mission commit is pushed to GitHub.
