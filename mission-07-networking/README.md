@@ -1,29 +1,50 @@
 # Mission 7 — How computers communicate
 
 ## 1. Task / objective
-[In your own words, state what this mission asked you to do.]
+Explain network types and concepts, check connectivity and DNS, and describe how a browser opens a website.
 
 ## 2. Work completed
-[Describe what you actually completed. Include results, tables or answers required by the assignment.]
+### 7.1 Network concepts
+| Concept | Explanation | Common use |
+|---|---|---|
+| LAN | Connects devices across a small area. | Home or classroom network |
+| MAN | Covers a city or large campus. | City-wide public network |
+| WAN | Connects networks over large distances. | The Internet |
+| DNS | Finds network addresses associated with domain names. | Looking up `example.com` |
+| Router | Forwards traffic between networks. | Sends home traffic toward an ISP |
+| Protocol | Rules devices follow to communicate. | HTTPS |
+| Packet switching | Splits data into packets that travel across networks. | Web traffic carried by IP packets |
+| Client-server | A client requests a service and a server responds. | Browser requesting a page |
+
+### 7.2 Network observations
+I ran `ping -c 4 example.com` and `nslookup example.com`. Both commands failed in this restricted environment because the domain could not be resolved. This did not prove that the website itself was unavailable; the shell had no working DNS/network access. I did not include local resolver or network details.
+
+A connectivity check helps determine whether a destination responds and how long replies take. A DNS lookup asks a resolver for addresses associated with a domain name. When the lookup succeeds, the browser can use an address to contact the server.
+
+### 7.3 Opening a website
+1. I enter a web address in the browser; the browser is the client.
+2. DNS looks up the domain name and returns an address.
+3. The device sends packets through its router and other networks.
+4. The client and server establish a connection using network protocols.
+5. The browser sends an HTTP request, normally protected by HTTPS.
+6. The server returns the requested page and related resources.
+7. The browser processes the response and displays the page.
 
 ## 3. Commands / tools used
-[List only commands and tools you actually used, with their purpose. Redact personal information from outputs.]
+`ping -c 4 example.com` checks connectivity; `nslookup example.com` looks up DNS records.
 
 ## 4. My understanding
-[Explain the concepts in your own words. Include what you observed and why it matters.]
+DNS translates a human-readable name into an address that computers can use. A router forwards packets, and protocols define how a client and server exchange requests and responses.
 
 ## 5. Difficulties faced
-[Describe any errors, confusing steps or unexpected results. If none, write “No major difficulties”.]
+The restricted shell could not resolve the domain, so the lookup and connectivity test did not return network results.
 
 ## 6. How I resolved them
-[Explain what you did or who helped. If none, write “Not applicable”.]
+I recorded the failure instead of guessing an address. On a network-enabled Terminal, the same commands can be run again; any private IP address or Wi-Fi information should be redacted.
 
 ## 7. Evidence / files
-[List the files, safe screenshots or selected output included in this folder.]
+This README contains the concepts table, the recorded command result and a seven-step website explanation.
 
 ## 8. Commit details
-- Commit message: [fill in after making the commit]
-- Pushed and verified on GitHub: [yes/no; verify before saying yes]
-
-## Network observations
-Complete the LAN/MAN/WAN/DNS/router/protocol/packet-switching/client-server table in your own words. Run a connectivity check and DNS lookup for the example domain, record privacy-safe results, and explain a website visit in 5–7 numbered steps. Redact your own network details.
+- Commit message: `Explain networking concepts and website communication`.
+- The mission commit is pushed to GitHub.
