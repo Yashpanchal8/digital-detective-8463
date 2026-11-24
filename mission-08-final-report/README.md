@@ -30,7 +30,7 @@ The restricted shell could not resolve the domain during the network lookup.
 I recorded the result honestly and did not publish a guessed DNS address.
 
 ## 7. Evidence / files
-The root README, all mission READMEs, `hello.py`, `number_converter.py`, and privacy-safe Terminal activity files.
+The root README, all mission READMEs, `hello.py`, `number_converter.py`, privacy-safe Terminal activity files, and `evidence/selected-output.md`.
 
 ## 8. Commit details
 - Commit message: `Complete final report and verify assignment submission`.

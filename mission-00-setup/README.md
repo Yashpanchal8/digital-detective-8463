@@ -23,7 +23,7 @@ The first push attempt could not resolve GitHub from the restricted shell enviro
 I retried the push with the authenticated GitHub connection. GitHub then showed the repository files and commit history.
 
 ## 7. Evidence / files
-Root `README.md`; this README; `mission-00-setup` through `mission-08-final-report`; and `evidence/README.md`.
+Root `README.md`; this README; `mission-00-setup` through `mission-08-final-report`; and `evidence/README.md` plus `evidence/selected-output.md`.
 
 ## 8. Commit details
 - Setup commit: `Set up Digital Detective mission structure`.
